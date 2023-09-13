@@ -691,7 +691,7 @@ body {
 }
 
 .block5 {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .block5__container {
@@ -714,7 +714,7 @@ body {
 }
 
 .block5__titl {
-  color: #161D27;
+  color: #161d27;
   text-align: center;
   font-family: Cormorant Garamond;
   font-size: 45px;
@@ -738,7 +738,7 @@ body {
 }
 
 .block5__item {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
@@ -756,7 +756,7 @@ body {
 }
 
 .it-titl {
-  color: #1F2732;
+  color: #1f2732;
   font-family: Cormorant Garamond;
   font-size: 30px;
   line-height: 42px;
@@ -769,21 +769,32 @@ body {
 }
 
 .bod-titl {
-  color: #FFF;
+  color: #fff;
   font-size: 30px;
   line-height: 39px;
   /* 130% */
 }
 
 .bod-text {
-  color: #FFF;
+  color: #fff;
   line-height: 26px;
   /* 130% */
 }
 
 .no-webp .it-bg{
-  background-image: url(img/block5/bg.jpg); }
+  background-image: url(img/block5/bgj.jpg); }
+
+.it-bg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
 
 .webp .block1{ background-image: url(img/block1/IMAGE.webp); }
 
-.webp .it-bg{ background-image: url(img/block5/bg.webp); }
+.webp .it-bg{ background-image: url(img/block5/bgj.webp); }
