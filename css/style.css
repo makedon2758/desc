@@ -345,7 +345,7 @@ body {
 }
 
 .no-webp .block1{
-  background-image: url(img/block1/IMAGE.png); }
+  background-image: url("img/block1/IMAGE.png"); }
 
 .block1 {
   background-position: 0 0;
@@ -782,9 +782,12 @@ body {
 }
 
 .no-webp .it-bg{
-  background-image: url(img/block5/bgj.jpg); }
+  background-image: url("img/block5/bgj.jpg"); }
 
 .it-bg {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 33.333%;
           flex: 0 1 33.333%;
