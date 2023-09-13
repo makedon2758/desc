@@ -345,7 +345,7 @@ body {
 }
 
 .no-webp .block1{
-  background-image: url("img/block1/IMAGE.png"); }
+  background-image: url("../img/block1/IMAGE.png"); }
 
 .block1 {
   background-position: 0 0;
@@ -782,7 +782,7 @@ body {
 }
 
 .no-webp .it-bg{
-  background-image: url("img/block5/bgj.jpg"); }
+  background-image: url("../img/block5/bgj.jpg"); }
 
 .it-bg {
   background-repeat: no-repeat;
@@ -798,6 +798,6 @@ body {
   gap: 20px;
 }
 
-.webp .block1{ background-image: url(img/block1/IMAGE.webp); }
+.webp .block1{ background-image: url(../img/block1/IMAGE.webp); }
 
-.webp .it-bg{ background-image: url(img/block5/bgj.webp); }
+.webp .it-bg{ background-image: url(../img/block5/bgj.webp); }
