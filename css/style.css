@@ -782,7 +782,7 @@ body {
 }
 
 .no-webp .it-bg{
-  background-image: url("img/block5/bg.jpg"); }
+  background-image: url(img/block5/bg.jpg); }
 
 .webp .block1{ background-image: url(img/block1/IMAGE.webp); }
 
